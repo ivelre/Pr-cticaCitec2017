@@ -1,0 +1,64 @@
+.logo{
+	padding-top: 1%;
+	
+}
+.collection a.collection-item{
+	color: #000;
+	
+}
+.collection .collection-item.active{
+	background-color: #0d47a1;
+	color: #eafaf9;
+	
+}
+.side-nav li > a > i, .side-nav li > a > [class^="mdi-"], .side-nav li > a li > a > [class*="mdi-"], .side-nav li > a > i.material-icons{
+	margin: 0px 0px 0 0;
+	
+}
+main{
+	padding-left: 300px;
+}
+nav{
+	padding-left: 300px;
+}
+@media only screen and (max-width : 992px){
+	nav{
+		padding-left: 0px;
+	}
+
+	main{
+		padding-left: 0px;
+	}
+}
+
+.fixed-action-btn{
+	bottom: 0px;
+}
+.fixed-action-btn.horizontal ul{
+	text-align: right;
+	right: 50px;
+}
+.btn-floating i{
+	line-height: 40px;
+}
+
+.fixed-action-btn.horizontal ul li{
+	margin: 8px 8px 0 0;
+	display: inline-block;
+}
+
+
+
+.row{
+	margin-bottom: 0px;
+}
+
+
+
+
+.input-field{
+	margin-top: 0rem;
+}
+.input-card{
+	margin: 0 0 0px 0;
+}
